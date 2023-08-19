@@ -1,4 +1,3 @@
-// Your code here.
 it('should simulate click and drag to scroll', () => {
   cy.get('.items').should('be.visible').then($items => {
     const startPosX = 493;
